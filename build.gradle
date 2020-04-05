@@ -1,0 +1,45 @@
+plugins {
+  id 'org.springframework.boot' version "$springBootVersion"
+  id 'io.spring.dependency-management' version '1.0.9.RELEASE'
+  id 'java'
+  id 'eclipse'
+  id 'idea'
+}
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+eclipse {
+  classpath {
+    downloadSources=true
+    downloadJavadoc=false
+  }
+}
+
+idea {
+  module {
+    downloadSources=true
+    downloadJavadoc=false
+  }
+}
+
+repositories {
+  mavenCentral()
+}
+
+test {
+  useJUnitPlatform()
+}
+
+dependencies {
+  implementation "org.springframework.boot:spring-boot-starter-webflux:$springBootVersion"
+  implementation "org.springframework.boot:spring-boot-starter-actuator:$springBootVersion"
+  implementation "org.springframework.boot:spring-boot-starter-security:$springBootVersion"
+
+  implementation "com.nimbusds:nimbus-jose-jwt:$nimbusJoseJwtVersion"
+
+  implementation "com.pivovarit:throwing-function:$throwingFunctionVersion"
+
+  testImplementation "org.springframework.boot:spring-boot-starter-test:$springBootVersion"
+  testImplementation "org.springframework.security:spring-security-test:$springSecurityTestVersion"
+}

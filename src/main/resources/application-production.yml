@@ -1,0 +1,7 @@
+jwt:
+  cookie:
+    is-secure: true
+
+security:
+  cors:
+    allowed-origin: https://multi-player-web-reactjs.herokuapp.com

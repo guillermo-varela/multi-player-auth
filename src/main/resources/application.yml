@@ -1,0 +1,18 @@
+spring:
+  main:
+    banner-mode: off
+
+logging:
+  pattern:
+    console: "%date{ISO8601} %5p ${PID:- } [%15.15t] %-40.40logger{39} : %m%n%wEx"
+  level:
+    reactor.netty.http.server.AccessLog: INFO
+
+jwt:
+  secret: "0000000000000000000000000000000000000000000000000000000000000000"
+  cookie:
+    is-secure: false
+
+security:
+  cors:
+    allowed-origin: "*"
