@@ -1,8 +1,8 @@
 ## English
 
 Live demo:
-*   https://multi-player-web-reactjs.herokuapp.com/space
-*   https://multi-player-web-reactjs.herokuapp.com/nature
+*   https://guillermo-varela.github.io/multi-player-web-reactjs/space
+*   https://guillermo-varela.github.io/multi-player-web-reactjs/nature
 
 OpenAPI 3:
 *   https://multi-player-auth.herokuapp.com/api-docs
@@ -30,8 +30,8 @@ This is the backend source code. Frontend code can be found at: https://github.c
 ## Español
 
 Demostración:
-*   https://multi-player-web-reactjs.herokuapp.com/space
-*   https://multi-player-web-reactjs.herokuapp.com/nature
+*   https://guillermo-varela.github.io/multi-player-web-reactjs/space
+*   https://guillermo-varela.github.io/multi-player-web-reactjs/nature
 
 Esta aplicación web fue desarrollada con fines de aprendizaje sobre:
 

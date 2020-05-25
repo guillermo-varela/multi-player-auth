@@ -4,4 +4,4 @@ jwt:
 
 security:
   cors:
-    allowed-origin: https://multi-player-web-reactjs.herokuapp.com
+    allowed-origin: https://guillermo-varela.github.io
