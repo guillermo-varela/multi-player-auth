@@ -33,6 +33,10 @@ Demostración:
 *   https://guillermo-varela.github.io/multi-player-web-reactjs/space
 *   https://guillermo-varela.github.io/multi-player-web-reactjs/nature
 
+OpenAPI 3:
+*   https://multi-player-auth.herokuapp.com/api-docs
+*   https://multi-player-auth.herokuapp.com/swagger-ui.html
+
 Esta aplicación web fue desarrollada con fines de aprendizaje sobre:
 
 *   [React](https://reactjs.org/)
