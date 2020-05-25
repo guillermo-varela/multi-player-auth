@@ -2,6 +2,10 @@ spring:
   main:
     banner-mode: off
 
+springdoc:
+  api-docs:
+    path: /api-docs
+
 logging:
   pattern:
     console: "%date{ISO8601} %5p ${PID:- } [%15.15t] %-40.40logger{39} : %m%n%wEx"

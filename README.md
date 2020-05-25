@@ -4,6 +4,10 @@ Live demo:
 *   https://multi-player-web-reactjs.herokuapp.com/space
 *   https://multi-player-web-reactjs.herokuapp.com/nature
 
+OpenAPI 3:
+*   https://multi-player-auth.herokuapp.com/api-docs
+*   https://multi-player-auth.herokuapp.com/swagger-ui.html
+
 This web application was developed to learn about:
 
 *   [React](https://reactjs.org/)
@@ -19,6 +23,7 @@ This web application was developed to learn about:
 *   [REST services with reactive architecture (non-blocking) with Spring WebFlux and Spring Security](https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html)
 *   [Stateless/sessionless authentication on a server using "Javascript Object Signing and Encryption" (JOSE) and "JSON Web Token" (JWT)"](https://connect2id.com/products/nimbus-jose-jwt)
 *   [Use of custom HTTP headers in stateless/sessionless environments to prevent CSRF attacks](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html#use-of-custom-request-headers)
+*   [OpenAPI 3](https://swagger.io/resources/open-api/) using [springdoc-openapi](https://springdoc.org/)
 
 This is the backend source code. Frontend code can be found at: https://github.com/guillermo-varela/multi-player-web-reactjs
 
@@ -43,5 +48,6 @@ Esta aplicación web fue desarrollada con fines de aprendizaje sobre:
 *   [Servicios REST con arquitectura reactiva (sin bloqueos) con Spring WebFlux y Spring Security](https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html)
 *   [Autenticación sin estado/sesión en un servidor usando "Javascript Object Signing and Encryption" (JOSE) y "JSON Web Token" (JWT)"](https://connect2id.com/products/nimbus-jose-jwt)
 *   [Uso de cabeceras (headers) HTTP personalizados en ambientes sin estado/sesión como prevención ante ataques CSRF](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html#use-of-custom-request-headers)
+*   [OpenAPI 3](https://swagger.io/resources/open-api/) usando [springdoc-openapi](https://springdoc.org/)
 
 Este es el código fuente del backend. El código del frontend se encuentra en: https://github.com/guillermo-varela/multi-player-web-reactjs

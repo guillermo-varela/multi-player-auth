@@ -35,7 +35,8 @@ public class SecurityConfig {
   public SecurityWebFilterChain securitygWebFilterChain(ServerHttpSecurity http, AuthenticationWebFilter tokenFilter) {
     return http
       .authorizeExchange()
-        .pathMatchers(HttpMethod.GET, "/actuator/*")
+        .pathMatchers(HttpMethod.GET, "/actuator/*", "/api-docs.*", "/api-docs/**", "/swagger-ui.html",
+            "/webjars/swagger-ui/**")
           .permitAll()
         .anyExchange()
           .authenticated()

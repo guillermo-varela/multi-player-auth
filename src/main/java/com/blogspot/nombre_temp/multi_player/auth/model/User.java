@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonFormat.Shape;
+import io.swagger.v3.oas.annotations.media.Schema;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
@@ -28,7 +30,8 @@ public class User {
     return username;
   }
 
-  @JsonFormat(shape = JsonFormat.Shape.NUMBER)
+  @JsonFormat(shape = Shape.NUMBER)
+  @Schema(type = "integer", format = "int64", description = "Epoch time in milliseconds")
   public Date getSessionExpirationDate() {
     return sessionExpirationDate;
   }

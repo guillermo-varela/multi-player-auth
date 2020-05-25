@@ -40,6 +40,8 @@ dependencies {
 
   implementation "com.pivovarit:throwing-function:$throwingFunctionVersion"
 
+  implementation "org.springdoc:springdoc-openapi-webflux-ui:$springdocVersion"
+
   testImplementation "org.springframework.boot:spring-boot-starter-test:$springBootVersion"
   testImplementation "org.springframework.security:spring-security-test:$springSecurityTestVersion"
 }
