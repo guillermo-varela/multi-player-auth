@@ -1,3 +1,5 @@
+![Run Tests](https://github.com/guillermo-varela/multi-player-auth/workflows/Run%20Tests/badge.svg)
+
 ## English
 
 Live demo:
